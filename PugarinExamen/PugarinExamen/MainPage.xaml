@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PugarinExamen.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Cursos Online" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+        </Frame>
+
+        <Button x:Name="btnLogin" Text="Login" Clicked="btnLogin_Clicked"/>
+        <Button x:Name="btnRegistro" Text="Registro" Clicked="btnRegistro_Clicked"/>
+        <Button x:Name="btnResumen" Text="Resumen" Clicked="btnResumen_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
